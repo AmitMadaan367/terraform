@@ -1,4 +1,4 @@
-resource "aws_db_instance" "projectDB" {
+resource "aws_db_instance" "ProjectDB" {
   allocated_storage    = 10
   engine               = "mysql"
   engine_version       = "5.7"
