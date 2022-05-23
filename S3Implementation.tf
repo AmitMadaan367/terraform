@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "myFirstBucket" {
+resource "aws_s3_bucket" "MyFirstBucket" {
   bucket = "my-terraform-first-bucket"
 
   tags = {
